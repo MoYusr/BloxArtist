@@ -31,7 +31,7 @@ ul {
     display: inline;
     left: 0;
     transform: translateX(-26vw);
-    font-size: 120px;
+    font-size: 32px;
     font-weight: 700;
     padding-top: .77vw;
 }
@@ -65,7 +65,7 @@ a {
     flex-direction: row;
     justify-content: center;
     top: 0;
-    margin-top: -10vh;
+    margin-top: -13vh;
 }
 
 .money {
@@ -74,9 +74,10 @@ a {
     color: white;
     font-family: "Rubik", sans-serif;
     align-items: center;
+    text-align: center;
     margin-right: 5vw;
     border: 7px solid #F2545B;
-    border-radius: 90px;
+    border-radius: 30px;
     margin-top: 15vh;
     width: 25vw;
     height: 43vh;
@@ -100,6 +101,7 @@ a {
 .price {
     font-family: inherit;
     font-size: 10vh;
+    margin-top: 23vh;
 }
 
 .robux {
@@ -109,7 +111,7 @@ a {
     font-family: "Rubik", sans-serif;
     align-items: center;
     border: 7px solid #F2545B;
-    border-radius: 90px;
+    border-radius: 30px;
     margin-top: 15vh;
     width: 25vw;
     height: 43vh;
@@ -134,14 +136,14 @@ a {
 .price-rob {
     font-family: inherit;
     font-size: 10vh;
-    margin-top: 1vh;
+    margin-top: -.5vh;
 }
 
 .delivery-info {
     margin-top: 5vh;
     color: white;
     text-align: center;
-    font-size: 170px;
+    font-size: 30px;
     font-weight: 700;
     display: flex;
     flex-direction: column;
@@ -153,12 +155,12 @@ a {
     display: flex;
     background-color: transparent;
     border: 7px solid #F2545B;
-    width: 28vw;
+    width: 20vw;
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 40px;
-    border-radius: 110px;
+    padding: 20px;
+    border-radius: 30px;
     margin-bottom: 2vh;
     transition: 0.5s ease;
 }
@@ -174,12 +176,12 @@ a {
     display: flex;
     background-color: transparent;
     border: 7px solid #F2545B;
-    width: 28vw;
+    width: 20vw;
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 40px;
-    border-radius: 110px;
+    padding: 20px;
+    border-radius: 30px;
     transition: 0.5s ease;
 }
 

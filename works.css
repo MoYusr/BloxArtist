@@ -7,7 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 175vh;
+    height: 185vh;
     background-color: #13100F;
 }
 
@@ -34,7 +34,7 @@ ul {
     display: inline;
     left: 0;
     transform: translateX(-26vw);
-    font-size: 120px;
+    font-size: 32px;
     font-weight: 700;
     padding-top: .77vw;
 }
@@ -66,15 +66,15 @@ a {
 .works {
     height: 150vh;
     display: grid;
-    grid-template-columns: 1350px 1350px 1350px;
-    grid-template-rows: 1350px 1350px 1350px;
-    gap: 30px;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px 400px;
+    gap: 10px;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .images {
-    width: 1350px;
-    height: 1350px;
+    width: 400px;
+    height: 400px;
     border-radius: 20px;
 }
