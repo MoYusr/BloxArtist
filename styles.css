@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 160vh;
+    height: 170vh;
     background-color: #13100F;
     display: flex;
     flex-direction: column;
@@ -53,8 +53,8 @@ ul {
   color: black;
   background: #FFCEA5;
   border: 1px solid #FFCEA5;
-  box-shadow: 0 0 5px #FFCEA5, 0 0 20px #FFCEA5, 0 0 50px #FFCEA5,
-    0 0 100px #FFCEA5;
+  box-shadow: 0 0 5px #FFCEA5, 0 0 5px #FFCEA5, 0 0 12px #FFCEA5,
+    0 0 50px #FFCEA5;
   border-radius: 110px;  
 }
 
@@ -98,7 +98,7 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: #F2545B;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .log-des {
@@ -112,6 +112,8 @@ ul {
     font-size: 42px;
     font-weight: 700;
     text-align: center;
+    box-shadow: 0 0 2px #548EF2, 0 0 2px #548EF2, 0 0 5px #548EF2,
+    0 0 30px #548EF2;
 }
 
 .ui-ux {
@@ -125,6 +127,8 @@ ul {
     font-size: 55px;
     font-weight: 700;
     text-align: center;
+    box-shadow: 0 0 2px #5459F2, 0 0 2px #5459F2, 0 0 5px #5459F2,
+    0 0 30px #5459F2;
 }
 
 .visits {
@@ -139,6 +143,8 @@ ul {
     font-size: 70px;
     font-weight: 700;
     text-align: center;
+    box-shadow: 0 0 2px #8854F2, 0 0 2px #8854F2, 0 0 5px #8854F2,
+    0 0 30px #8854F2;
 }
 
 .visits-text {
@@ -157,6 +163,8 @@ ul {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
+    box-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white,
+    0 0 15px white;
 }
 
 .x {
@@ -168,6 +176,8 @@ ul {
     border-radius: 10px;
     grid-row: 6 / 9;
     grid-column: 5 / 8;
+    box-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white,
+    0 0 15px white;
 }
 
 .discord-user {
@@ -181,6 +191,8 @@ ul {
     font-size: 35px;
     font-weight: 700;
     text-align: center;
+    box-shadow: 0 0 2px #5539CC, 0 0 2px #5539CC, 0 0 5px #5539CC,
+    0 0 30px #5539CC;
 }
 
 .discord-logo {
@@ -191,6 +203,8 @@ ul {
     border-radius: 10px;
     grid-row: 7 / 10;
     grid-column: 1 / 4;
+    box-shadow: 0 0 2px #5539CC, 0 0 2px #5539CC, 0 0 5px #5539CC,
+    0 0 30px #5539CC;
 }
 
 .click {
@@ -204,6 +218,8 @@ ul {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
+    box-shadow: 0 0 2px #5539CC, 0 0 2px #5539CC, 0 0 5px #5539CC,
+    0 0 30px #5539CC;
 }
 
 .discord-link {
@@ -243,4 +259,21 @@ ul {
     background: transparent;
     border: transparent;
     box-shadow: none;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 0.8s ease;
+    filter: blur(3px);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
 }

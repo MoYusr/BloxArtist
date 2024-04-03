@@ -50,8 +50,8 @@ li:hover,
   color: black;
   background: #FFCEA5;
   border: 1px solid #FFCEA5;
-  box-shadow: 0 0 5px #FFCEA5, 0 0 20px #FFCEA5, 0 0 50px #FFCEA5,
-    0 0 100px #FFCEA5;
+  box-shadow: 0 0 5px #FFCEA5, 0 0 5px #FFCEA5, 0 0 12px #FFCEA5,
+    0 0 50px #FFCEA5;
   border-radius: 110px;  
 }
 
@@ -87,8 +87,8 @@ a {
 .money:hover {
     background-color: #F2545B;
     border: 7px transparent white;
-    box-shadow: 0 0 5px #F2545B, 0 0 20px #F2545B, 0 0 50px #F2545B,
-    0 0 100px #F2545B;
+    box-shadow: 0 0 5px #F2545B, 0 0 5px #F2545B, 0 0 12px #F2545B,
+    0 0 50px #F2545B;
 }
 
 .dollar {
@@ -121,8 +121,8 @@ a {
 .robux:hover {
     background-color: #F2545B;
     border: 7px transparent white;
-    box-shadow: 0 0 5px #F2545B, 0 0 20px #F2545B, 0 0 50px #F2545B,
-    0 0 100px #F2545B;
+    box-shadow: 0 0 5px #F2545B, 0 0 5px #F2545B, 0 0 12px #F2545B,
+    0 0 50px #F2545B;
 }
 
 .icon {
@@ -168,8 +168,8 @@ a {
 .time:hover {
     border: transparent;
     background-color: #F2545B;
-    box-shadow: 0 0 5px #F2545B, 0 0 20px #F2545B, 0 0 50px #F2545B,
-    0 0 100px #F2545B;
+    box-shadow: 0 0 5px #F2545B, 0 0 5px #F2545B, 0 0 12px #F2545B,
+    0 0 50px #F2545B;
 }
 
 .format {
@@ -188,6 +188,23 @@ a {
 .format:hover {
     border: transparent;
     background-color: #F2545B;
-    box-shadow: 0 0 5px #F2545B, 0 0 20px #F2545B, 0 0 50px #F2545B,
-    0 0 100px #F2545B;
+    box-shadow: 0 0 5px #F2545B, 0 0 5px #F2545B, 0 0 12px #F2545B,
+    0 0 50px #F2545B;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s ease;
+    filter: blur(10px);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
 }
